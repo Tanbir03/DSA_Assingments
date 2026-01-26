@@ -24,7 +24,7 @@ int main() {
         cout << endl;
     }
 
-    for(int i = (n-1) ; i >=1 ; i--) {
+    for(int i = (n-1) ; i >= 1 ; i--) {
         for(int s = ((n-i)+1) ; s >= 1 ; s--) {
             cout << "*";
         }
