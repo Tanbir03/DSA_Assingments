@@ -1,1 +1,1 @@
-This repoository consists of DSA assignment solutions from 100xDevs.
+This repository consists of DSA assignment solutions from 100xDevs.
