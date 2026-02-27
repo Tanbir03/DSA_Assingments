@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
-    for(char ch = 'A'; ch <= 'E'; ch++) {
+    for (char ch = 'A'; ch <= 'E'; ch++)
+    {
         cout << ch << endl;
     }
 

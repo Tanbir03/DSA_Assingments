@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int x, n;
     cin >> x >> n;
     long long pow = 1;
 
-    for(int i = 1 ; i <= n ; i++) {
+    for (int i = 1; i <= n; i++)
+    {
         pow = pow * x;
     }
 

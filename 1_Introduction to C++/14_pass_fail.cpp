@@ -1,18 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int marks;
 
     cin >> marks;
 
-    if(0 <= marks && marks <= 100) {
-        if(marks >= 35) {
+    if (0 <= marks && marks <= 100)
+    {
+        if (marks >= 35)
+        {
             cout << "Pass";
-        } else {
+        }
+        else
+        {
             cout << "Fail";
         }
-    } else {
+    }
+    else
+    {
         cout << "invalid Input";
     }
 

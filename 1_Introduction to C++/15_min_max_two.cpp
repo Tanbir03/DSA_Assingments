@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int min, max, temp;
 
     cin >> min >> max;
 
-    if((1 <= min && min <= 1000000000) && (1 <= max && max <= 1000000000)) {
-        if(min > max) {
+    if ((1 <= min && min <= 1000000000) && (1 <= max && max <= 1000000000))
+    {
+        if (min > max)
+        {
             temp = max;
             max = min;
             min = temp;
@@ -15,7 +18,9 @@ int main() {
 
         cout << "Min = " << min << endl;
         cout << "Max = " << max;
-    } else {
+    }
+    else
+    {
         cout << "Invalid Input";
     }
 

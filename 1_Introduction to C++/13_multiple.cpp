@@ -1,18 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int n, m;
 
     cin >> n >> m;
 
-    if((1 <= n && n <= 1000000000) && (1 <= m && m <= 1000000000)) {
-        if(m % n == 0) {
+    if ((1 <= n && n <= 1000000000) && (1 <= m && m <= 1000000000))
+    {
+        if (m % n == 0)
+        {
             cout << "Yes";
-        } else {
+        }
+        else
+        {
             cout << "No";
         }
-    } else {
+    }
+    else
+    {
         cout << "Invalid Input";
     }
 

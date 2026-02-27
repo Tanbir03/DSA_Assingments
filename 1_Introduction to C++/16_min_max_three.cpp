@@ -1,37 +1,55 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int a, b, c, min, max;
 
     cin >> a >> b >> c;
-    if((1 <= a && a <= 1000000000) && (1 <= b && b <= 1000000000) && (1 <= c && c <= 1000000000)) {
-        if((a > b) && (a > c)) {
+    if ((1 <= a && a <= 1000000000) && (1 <= b && b <= 1000000000) && (1 <= c && c <= 1000000000))
+    {
+        if ((a > b) && (a > c))
+        {
             max = a;
-            if(b < c) {
+            if (b < c)
+            {
                 min = b;
-            } else {
+            }
+            else
+            {
                 min = c;
             }
-        } else if((b > a) && (b > c)) {
+        }
+        else if ((b > a) && (b > c))
+        {
             max = b;
-            if(a < c) {
+            if (a < c)
+            {
                 min = a;
-            } else {
+            }
+            else
+            {
                 min = c;
             }
-        } else {
+        }
+        else
+        {
             max = c;
-            if(a < b) {
+            if (a < b)
+            {
                 min = a;
-            } else {
+            }
+            else
+            {
                 min = b;
             }
         }
 
         cout << "Min = " << min << endl;
         cout << "Max = " << max;
-    } else {
+    }
+    else
+    {
         cout << "Invalid Input";
     }
 

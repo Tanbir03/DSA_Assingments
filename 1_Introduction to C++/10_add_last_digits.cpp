@@ -7,10 +7,13 @@ int main()
 
     cin >> n >> m;
 
-    if((1 <= n && n <= 1000) && (1 <= m && m <= 1000)) {
+    if ((1 <= n && n <= 1000) && (1 <= m && m <= 1000))
+    {
 
         cout << (n % 10) + (m % 10);
-    } else {
+    }
+    else
+    {
         cout << "Invalid Input";
     }
 

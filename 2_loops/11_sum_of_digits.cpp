@@ -1,14 +1,16 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
 
-int main() {
+int main()
+{
     long long n;
     int sum = 0;
     cin >> n;
 
-    while (n != 0) {
-       sum = sum + (n % 10);
-        n = n / 10; 
+    while (n != 0)
+    {
+        sum = sum + (n % 10);
+        n = n / 10;
     }
 
     cout << sum;

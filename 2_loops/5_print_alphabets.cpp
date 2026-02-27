@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
-    for(char i = 'A' ; i <= 'Z' ; i++) {
+    for (char i = 'A'; i <= 'Z'; i++)
+    {
         cout << i << " ";
     }
 

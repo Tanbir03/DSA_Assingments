@@ -3,7 +3,7 @@ using namespace std;
 
 void print_fact(int n)
 {
-    for (int i = 1; i <= n; i++)
+    for (int i = n; i > 0; i--)
     {
         if (n % i == 0)
         {
